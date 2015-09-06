@@ -1,2 +1,0 @@
-# timeserver.github.io
-test
