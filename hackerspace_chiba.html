@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en" class="house">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerSpace千葉大網白里 - ときさば系</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+  <!-- Loading Gmaps -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyChNmqG282ru2FaAthGlGsl85XsOG3qRik&sensor=false"></script>
+  <script type="text/javascript" src="js/gmaps.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-68521322-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body id="page-top" class="house">
+
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="index.html">ときさば系ギークハウス</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#about">このHackerSpaceについて</a>
+          </li>
+<!--
+          <li>
+            <a class="page-scroll" href="#review">レビュー</a>
+          </li>
+-->
+          <li>
+            <a class="page-scroll" href="#map">所在地</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#residence">物件一覧</a>
+          </li>
+          <li>
+            <a class="navbar-brand page-scroll" href="#page-top">ページトップへ</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <header id="hackchiba">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1 class="hide">HackerSpace千葉大網白里</h1>
+      </div>
+    </div>
+  </header>
+
+  <section class="geekhouse">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+          <img src="img/profile_pic/tokisaba.jpg" alt="管理人ときさば" class="img-circle" width="115" hegiht="115">
+          <div class="text-muted">ときさば</div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h3">HackerSpace千葉大網白里
+            <small>工作、畑、そして住めるHackerSpace</small>
+          </h2>
+          <p>千葉県大網白里市, 日本 <!--<i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i> (100)--></p>
+          <div class="row">
+            <div class="col-xs-3 text-center">
+              <i class="fa fa-3x fa-home"></i>
+              <div class="text-muted">一軒家タイプ</div>
+            </div>
+            <div class="col-xs-3 text-center">
+              <i class="fa fa-3x fa-share-alt"></i>
+              <div class="text-muted">ドミトリー</div>
+            </div>
+            <div class="col-xs-3 text-center">
+              <i class="fa fa-3x fa-users"></i>
+              <div class="text-muted">住民 6人</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center contact">
+          <a href="https://www.facebook.com/tokisaba" target="_blank">
+            <button type="button" class="btn btn-block btn-success">お問い合わせ</button>
+          </a>
+<!--
+          <a href="https://twitter.com/tokisaba" target="_blank">
+            <button type="button" class="btn btn-block btn-twitter">Twitter</button>
+          </a>
+          <a href="https://www.facebook.com/GeekHouseTokisaba" target="_blank">
+            <button type="button" class="btn btn-block btn-facebook">Facebook</button>
+          </a>
+          <a href="https://www.airbnb.jp/rooms/4442320" target="_blank">
+            <button type="button" class="btn btn-block btn-airbnb">Airbnb</button>
+          </a>
+-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray bordered geekhouse" id="about">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-1">
+        <div class="row">
+          <h2 class="h3 text-muted">HackerSpace千葉大網白里について</h2>
+          <p>古民家を利用した、工作ができて、畑も使えるHackerSpaceです。住むこともできる</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class="h4 text-muted">物件内容</h3>
+          </div>
+          <div class="col-lg-9">
+            <div class="col-xs-6">
+              間取り：
+              <strong>7K</strong>
+            </div>
+            <div class="col-xs-6">
+              住民用ドミトリー：
+              <strong>2部屋</strong>
+            </div>
+            <div class="col-xs-6">
+              住民用個室：
+              <strong>なし</strong>
+            </div>
+            <div class="col-xs-6">
+              共用：
+              <strong>リビング、テレビ部屋</strong>
+            </div>
+            <div class="col-xs-6">
+              もくもく部屋：
+              <strong>１部屋</strong>
+            </div>
+            <div class="col-xs-6">
+              風呂、シャワー：
+              <strong>なし</strong>
+            </div>
+            <div class="col-xs-6">
+              トイレ：
+              <strong>２</strong>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <div class="col-lg-3">
+            <h3 class="h4 text-muted">アメニティ・設備</h3>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-wifi"></i> ワイヤレスインターネット
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-television"></i> テレビ、プロジェクター
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-gamepad"></i> 3Dプリンター
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-pencil"></i> 井戸
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-pencil"></i> 畑２反
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-pencil"></i> もくもく部屋
+              </div>
+              <div class="col-xs-6">
+                <i class="fa fa-lg fa-car"></i>駐車場あり
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <div class="col-lg-3">
+            <h3 class="h4 text-muted">料金</h3>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-xs-6">
+                ドミトリー家賃 :
+                <strong>25,000円</strong>
+              </div>
+              <div class="col-xs-6">
+                共益費：
+                <strong>10,000円</strong>
+              </div>
+              <div class="col-xs-6">
+                デポジット：
+                <strong>25,000円</strong>
+              </div>
+              <div class="col-xs-6">
+                割引：
+                <strong data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">ギーク割引5,000円</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <div class="col-lg-3">
+            <h3 class="h4 text-muted">必須要件</h3>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-xs-6">
+                DQNでない
+              </div>
+              <div class="col-xs-6">
+                家賃を滞納せず払える
+              </div>
+              <div class="col-xs-6">
+                基本的なマナーが守れる
+              </div>
+              <div class="col-xs-6">
+                運営に協力できる
+              </div>
+              <div class="col-xs-6">
+                Facebook/Twitter/Gmail/Slackが使える
+              </div>
+              <div class="col-xs-6">
+                悪臭を予防できる
+              </div>
+              <div class="col-xs-6">
+                身分が証明できるものを提出できる
+                <br> (住民票、免許、パスポート、保険証など)
+              </div>
+              <div class="col-xs-6">
+                大騒ぎしない
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <div class="col-lg-3">
+            <h3 class="h4 text-muted">推奨要件</h3>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-xs-6">
+                たばこを吸わない
+              </div>
+              <div class="col-xs-6">
+                インターネットが好き
+              </div>
+              <div class="col-xs-6">
+                IT関係の仕事、学校、趣味
+              </div>
+              <div class="col-xs-6">
+                プログラム言語がひとつ以上使える
+              </div>
+              <div class="col-xs-6">
+                荷物が少ない
+              </div>
+              <div class="col-xs-6">
+                きれい好き
+              </div>
+              <div class="col-xs-6">
+                料理好き
+              </div>
+              <div class="col-xs-6">
+                ギークっぽい何かの能力がある
+              </div>
+              <div class="col-xs-6">
+                腹が立ってもキレない
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!--
+  <section class="geekhouse" id="review">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-1">
+        <div class="row">
+          <h2 class="h3">レビュー3件　<i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-muted">
+            お部屋について
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-lg-6">正確さ
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+              <div class="col-lg-6">ロケーション
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+              <div class="col-lg-6">コミュニケーション
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+              <div class="col-lg-6">チェックイン
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+              <div class="col-lg-6">清潔さ
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+              <div class="col-lg-6">コスパ
+                <div class="pull-right"><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i><i class="fa fa-star star"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/profile_pic/tokisaba.jpg" alt="管理人ときさば" class="img-circle avatar" width="72" hegiht="72">
+            <div class="name text-muted">
+              北村直樹
+            </div>
+          </div>
+          <div class="col-md-9">
+            <p>マジいいっすよー。住んだほうがいいっすよー。</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/profile_pic/tanenobu.jpg" alt="管理人ときさば" class="img-circle avatar" width="72" hegiht="72">
+            <div class="name text-muted">
+              種延真之
+            </div>
+          </div>
+          <div class="col-md-9">
+            <p>マジいいっすよー。住んだほうがいいっすよー。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </secttion>
+-->
+    <section class="map">
+      <div id="map"></div>
+      <div class="map-card">
+        <div class="text-center">HackerSpace千葉大網白里</div>
+        <div class="text-center text-muted">JR大網駅 車で10分
+          <br> 大網駅から歩いて60分
+        </div>
+      </div>
+      <script>
+        var map = new GMaps({
+          el: '#map',
+          lat: 35.507507,
+          lng: 140.2862408,
+          scrollwheel: false,
+        });
+        map.drawCircle({
+          lat: 35.507507,
+          lng: 140.2862408,
+          radius: 100,
+          strokeColor: '#04c8c8',
+          strokeOpacity: 1,
+          strokeWeight: 1,
+          fillColor: '#0ffcfc',
+          fillOpacity: 0.6
+        });
+      </script>
+    </section>
+  <section class="no-padding" id="residence">
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-4tsuya.html" class="portfolio-box">
+            <img src="img/geek_4tsuya.jpg" class="img-responsive" alt="ギークハウス新宿四谷">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  新宿区
+                </div>
+                <div class="project-name">
+                  ギークハウス新宿四ツ谷
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-shinjuku.html" class="portfolio-box">
+            <img src="img/geejuku4.jpg" class="img-responsive" alt="ギークハウス新宿">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  渋谷区
+                </div>
+                <div class="project-name">
+                  ギークハウス新宿
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-nishishinjuku.html" class="portfolio-box">
+            <img src="img/gh_NishiShin.jpg" class="img-responsive" alt="ギークハウス西新宿">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  新宿区
+                </div>
+                <div class="project-name">
+                  ギークハウス西新宿
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-shinjuku-2chome.html" class="portfolio-box">
+            <img src="img/geejuku02nd_02.png" class="img-responsive" alt="ギークハウス新宿２丁目">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  新宿区
+                </div>
+                <div class="project-name">
+                  ギークハウス新宿２丁目
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="hackerspace_chiba.html" class="portfolio-box">
+            <img src="img/hs_chiba.jpg" class="img-responsive" alt="HackerSpace千葉大網白里">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  千葉県大網白里市
+                </div>
+                <div class="project-name">
+                  HackerSpace千葉大網白里
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="hackerspace_shinjuku.html" class="portfolio-box">
+            <img src="img/geeaki01.png" class="img-responsive" alt="HackerSpace新宿">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  新宿区
+                </div>
+                <div class="project-name">
+                  HackerSpace新宿
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-otaki.html" class="portfolio-box">
+            <img src="img/geek-otaki.jpg" class="img-responsive" alt="ギークハウス信州王滝村">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  長野県
+                </div>
+                <div class="project-name">
+                  ギークハウス信州王滝村
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-ofunato.html" class="portfolio-box">
+            <img src="img/geek-ofunato1.jpg" class="img-responsive" alt="ギークハウス岩手三陸大船渡">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  岩手県
+                </div>
+                <div class="project-name">
+                  ギークハウス岩手三陸大船渡
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-kouenji.html" class="portfolio-box">
+            <img src="img/geekkouenji3.jpg" class="img-responsive" alt="ギークハウス高円寺">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  杉並区
+                </div>
+                <div class="project-name">
+                  ギークハウス高円寺
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-johorbahru.html" class="portfolio-box">
+            <img src="img/jb1.jpg" class="img-responsive" alt="ギークハウスジョホールバル">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  マレーシア　ジョホール州
+                </div>
+                <div class="project-name">
+                  ギークハウスジョホールバル
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="" class="portfolio-box">
+            <img src="img/construction.jpg" class="img-responsive" alt="ギークハウス神田秋葉原">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  台湾
+                </div>
+                <div class="project-name">
+                  ギークハウス台北
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekbar-shinjuku.html" class="portfolio-box">
+            <img src="img/geeaki01.png" class="img-responsive" alt="ギークハウス神田秋葉原">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  新宿区
+                </div>
+                <div class="project-name">
+                  ギークバー新宿
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="geekhouse-shinagawa.html" class="portfolio-box">
+            <img src="img/geeshina02.png" class="img-responsive" alt="ギークハウス品川">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  品川区
+                </div>
+                <div class="project-name">
+                  ギークハウス品川
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+-->
+
+      </div>
+    </div>
+  </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="select select-large select-block">
+              <label>
+                言語を選択(準備中)
+              </label>
+              <select class="form-control input-lg">
+                <option value="ja" selected="">日本語 - Japanese</option>
+                <option value="en">英語 - English</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="h4">ギークハウスプロジェクト</h3>
+            <ul class="list-unstyled">
+              <li><a href="http://geekhouse.tumblr.com/" target="_blank">ギークハウスプロジェクト</a></li>
+              <li><a href="http://geekhouse.tumblr.com/post/82283493603/" target="_blank">入居者募集</a></li>
+              <li><a href="http://geekhouse.tumblr.com/unei" target="_blank">運営について</a></li>
+              <li><a href="https://ja.wikipedia.org/wiki/ギークハウスプロジェクト" target="_blank">Wikipedia</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="h4">ときさば系物件</h3>
+            <ul class="list-unstyled">
+            <li><a href="geekhouse-shinjuku.html">ギークハウス新宿</a></li>
+            <li><a href="geekhouse-shinjuku-2chome.html">ギークハウス新宿２丁目</a></li>
+            <li><a href="geekhouse-nishishinjuku.html">ギークハウス西新宿</a></li>
+            <li><a href="geekhouse-4tsuya.html">ギークハウス新宿四ツ谷</a></li>
+            <li><a href="hackerspace_shinjuku.html">HackerSpace新宿</a></li>
+            <li><a href="hackerspace_chiba.html">HackerSpace千葉大網白里</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <h3 class="h4 text-center">連絡先</h3>
+          <ul class="list-unstyled list-inline text-center">
+<!--
+            <li>
+              <a href="https://twitter.com/tokisaba" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+              </a>
+            </li>
+-->
+            <li>
+              <a href="https://www.facebook.com/GeekHouseTokisaba" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="row text-center text-muted">
+          &copy; ときさば系ギークハウス
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+</html>

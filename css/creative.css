@@ -936,22 +936,23 @@ fieldset[disabled] .btn-airbnb.active {
     background-color: #fff;
 }
 
-#map {
-  width: 100%;
-  height: 650px;
+
+#gmap {
+    width:100%;
+   height:650px;
 }
 
-.map {
+.gmap_sec {
   position: relative;
   padding-bottom: 0;
 }
 
-.map-card {
+.gmap-card {
   position: absolute;
   z-index: 2;
   width: 315px;
-  top: 15%;
-  left: 15%;
+  top: 75%;
+  left: 5%;
   padding: 20px;
   line-height: 20px;
   background-color: #fff;
