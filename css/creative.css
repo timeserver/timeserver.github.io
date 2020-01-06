@@ -932,7 +932,61 @@ fieldset[disabled] .btn-airbnb.active {
 }
 
 .btn-airbnb .badge {
-    color: #fd5c63;
+    color: #DD4B39;
+    background-color: #fff;
+}
+
+
+.btn-photo {
+    border-color: #DD4B39;
+    color: #fff;
+    background-color: #DD4B39;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-photo:hover,
+.btn-photo:focus,
+.btn-photo.focus,
+.btn-photo:active,
+.btn-photo.active,
+.open > .dropdown-toggle.btn-photo {
+    border-color: #DD4B39;
+    color: #fff;
+    background-color: #F04F56;
+}
+
+.btn-photo:active,
+.btn-photo.active,
+.open > .dropdown-toggle.btn-photo {
+    background-image: none;
+}
+
+.btn-photo.disabled,
+.btn-photo[disabled],
+fieldset[disabled] .btn-photo,
+.btn-photo.disabled:hover,
+.btn-photo[disabled]:hover,
+fieldset[disabled] .btn-photo:hover,
+.btn-photo.disabled:focus,
+.btn-photo[disabled]:focus,
+fieldset[disabled] .btn-photo:focus,
+.btn-photo.disabled.focus,
+.btn-photo[disabled].focus,
+fieldset[disabled] .btn-photo.focus,
+.btn-photo.disabled:active,
+.btn-photo[disabled]:active,
+fieldset[disabled] .btn-photo:active,
+.btn-photo.disabled.active,
+.btn-photo[disabled].active,
+fieldset[disabled] .btn-photo.active {
+    border-color: #DD4B39;
+    background-color: #DD4B39;
+}
+
+.btn-photo .badge {
+    color: #DD4B39;
     background-color: #fff;
 }
 
